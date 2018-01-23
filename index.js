@@ -163,11 +163,11 @@ function moveDodger(e) {
    */
 function moveDodgerLeft() {
   // implement me!
-  window.requestAnimationFrame(function(){const left = positionToInteger(dodger.style.left)
-    if (left > 0){
-      DODGER.style.left = `${left -= 4}px`
-    }})
-  
+  window.requestAnimationFrame(function(){var left = positionToInteger(dodger.style.left)
+      if (left > 0){
+        DODGER.style.left = `${left -= 4}px`
+      }
+    })
 }
 
   /**
