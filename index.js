@@ -135,7 +135,7 @@ function endGame() {
 
 function moveDodger(e) {
   // implement me!
-  if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
+  if ([LEFT_ARROW, RIGHT_ARROW].indexOf(e.which) > -1) {
     e.preventDefault()
     e.stopPropagation()
   }
