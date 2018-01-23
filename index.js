@@ -163,7 +163,8 @@ function moveDodger(e) {
    */
 function moveDodgerLeft() {
   // implement me!
-  window.requestAnimationFrame(function(){const left = positionToInteger(dodger.style.left) })
+  window.requestAnimationFrame(function(){const left = positionToInteger(dodger.style.left)
+    if (left > )})
   
 }
 
